@@ -1,0 +1,190 @@
+{
+  "productsByCategory": {
+    "notebooks": [
+      {
+        "id": 1,
+        "name": "Caderno Universitário",
+        "description": "Caderno espiral 200 folhas, capa dura, 1 matéria",
+        "price": 24.90,
+        "image": "public/book-01.png",
+        "category": "notebooks" 
+      },
+      {
+        "id": 2,
+        "name": "Caderno Brochura",
+        "description": "Caderno 96 folhas, capa personalizada",
+        "price": 12.90,
+        "image": "public/book-02.png",
+        "category": "notebooks"
+      },
+      {
+        "id": 4,
+        "name": "Caderno Brochura",
+        "description": "Caderno 96 folhas, capa personalizada",
+        "price": 12.90,
+        "image": "public/book-03.png",
+        "category": "notebooks"
+      },
+      {
+        "id": 5,
+        "name": "Caderno Brochura",
+        "description": "Caderno 96 folhas, capa personalizada",
+        "price": 12.90,
+        "image": "public/book-04.png",
+        "category": "notebooks"
+      },
+      {
+        "id": 6,
+        "name": "Caderno Brochura",
+        "description": "Caderno 96 folhas, capa personalizada",
+        "price": 12.90,
+        "image": "public/book-05.png",
+        "category": "notebooks"
+      },
+      {
+        "id": 7,
+        "name": "Caderno Brochura",
+        "description": "Caderno 96 folhas, capa personalizada",
+        "price": 12.90,
+        "image": "public/book-03.png",
+        "category": "notebooks"
+      }
+    ],
+
+    "pens": [
+      {
+        "id": 8,
+        "name": "Caneta Esferográfica Bic",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-01.png",
+        "category": "pens"
+      },
+      {
+        "id": 9,
+        "name": "Caneta Esferográfica",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-02.png",
+        "category": "pens"
+      },
+      {
+        "id": 10,
+        "name": "Canetinha SuperSoft Brush",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-03.png",
+        "category": "pens"
+      },
+
+      {
+        "id": 11,
+        "name": "Caneta Trilux Style",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-04.png",
+        "category": "pens"
+      },
+
+       {
+        "id": 12,
+        "name": "Canetinha Jumbo Triangular",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-05.png",
+        "category": "pens"
+      },
+
+       {
+        "id": 13,
+        "name": "Lápis de Cor Eco 100 cores",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-06.png",
+        "category": "pens"
+      },
+
+      {
+        "id": 14,
+        "name": "Lapiseira Poly Teen 0.5mm",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-07.png",
+        "category": "pens"
+      },
+      {
+        "id": 15,
+        "name": "Lapiseira Grip Matic 0.5mm",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/pens-08.png",
+        "category": "pens"
+      }
+      
+
+
+    ],
+
+    "erasers": [
+      {
+        "id": 13,
+        "name": "Borracha Faber-Castell",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-01.png",
+        "category": "borrachas"
+      },
+      {
+        "id": 14,
+        "name": "Borracha Faber-Castell c/ Glitter",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-02.png",
+        "category": "borrachas"
+      },
+      {
+        "id": 15,
+        "name": "Borracha Mercur p/ lápis ",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-03.png",
+        "category": "borrachas"
+      },
+
+      {
+        "id": 16,
+        "name": " Borracha Batom Barbie Tris ",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-04.png",
+        "category": "borrachas"
+      },
+
+       {
+        "id": 17,
+        "name": " Borracha Fantasia Minnie Molin ",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-05.png",
+        "category": "borrachas"
+      },
+       {
+        "id": 18,
+        "name": " Borracha Fantasia Homem-Aranha Molin ",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-06.png",
+        "category": "borrachas"
+      },
+
+       {
+        "id": 19,
+        "name": "  Borracha Gom Stick Universal Maped ",
+        "description": "Pacote com 10 canetas azuis, ponta média",
+        "price": 12.50,
+        "image": "public/borracha-07.png",
+        "category": "borrachas"
+      }
+    ]
+  }
+}

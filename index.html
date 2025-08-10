@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armarinho Educa - Materiais Escolares por Categoria</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./public/genius-logo.png" alt="geniuslogo" />
+        <div class="logo">
+          <h1>Gen<span>ius</span></h1>
+          <h4>Armarinho e Cia</h4>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#categories">Categorias</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#categories">Categorias</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+  <div class="hero-carousel">
+    <!-- Botão de navegação anterior -->
+    <button class="hero-prev-btn">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    
+    <!-- Container dos banners -->
+    <div class="hero-track">
+      <!-- Banner 1 -->
+      <div class="hero-slide active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('public/hero-banner02.jpg');">
+        <div class="container">
+          <h2>Materiais Escolares por Categoria</h2>
+          <p>Encontre facilmente o que precisa com nossa organização por seções</p>
+          <a href="#categories" class="btn">Ver Categorias</a>
+        </div>
+      </div>
+      
+      <!-- Banner 2 -->
+      <div class="hero-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('public/herobanner-03.png');">
+        <div class="container">
+          <h2>Artigos para o Lar</h2>
+          <p>Descontos especiais em todos os materiais escolares</p>
+          <a href="#categories" class="btn">Conferir Ofertas</a>
+        </div>
+      </div>
+      
+      <!-- Banner 3 -->
+      <div class="hero-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('public/herobanner-01.png');">
+        <div class="container">
+          <h2>Promoção de Volta às Aulas</h2>
+          <p>Confira nossa linha de produtos que vão deixar sua casa mais bonita!</p>
+          <a href="#categories" class="btn">Ver Novidades</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Botão de navegação próximo -->
+    <button class="hero-next-btn">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+    
+    <!-- Indicadores de slide -->
+    <div class="hero-indicators">
+      <span class="indicator active" data-slide="0"></span>
+      <span class="indicator" data-slide="1"></span>
+      <span class="indicator" data-slide="2"></span>
+    </div>
+  </div>
+</section>
+
+    <section class="categories" id="categories">
+      <div class="container">
+        <h2>Nossas Categorias</h2>
+
+        <!-- Categoria Cadernos -->
+        <div class="category-section">
+          <h3 class="category-title">Cadernos & Agendas</h3>
+          <div class="carousel">
+            <button
+              class="carousel-btn prev-btn"
+              aria-label="Anterior"
+              data-category="notebooks"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-container" data-category="notebooks">
+              <div class="carousel-track" id="notebooks-track">
+                <!-- Produtos serão inseridos via JavaScript -->
+              </div>
+            </div>
+
+            <button
+              class="carousel-btn next-btn"
+              aria-label="Próximo"
+              data-category="notebooks"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Categoria Canetas -->
+        <div class="category-section">
+          <h3 class="category-title">Lápis & Canetas</h3>
+          <div class="carousel">
+            <button
+              class="carousel-btn prev-btn"
+              aria-label="Anterior"
+              data-category="pens"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-container" data-category="pens">
+              <div class="carousel-track" id="pens-track">
+                <!-- Produtos serão inseridos via JavaScript -->
+              </div>
+            </div>
+
+            <button
+              class="carousel-btn next-btn"
+              aria-label="Próximo"
+              data-category="pens"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Categoria Borrachas -->
+        <div class="category-section">
+          <h3 class="category-title">Borrachas & Apontadores</h3>
+          <div class="carousel">
+            <button
+              class="carousel-btn prev-btn"
+              aria-label="Anterior"
+              data-category="erasers"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-container" data-category="erasers">
+              <div class="carousel-track" id="erasers-track">
+                <!-- Produtos serão inseridos via JavaScript -->
+              </div>
+            </div>
+
+            <button
+              class="carousel-btn next-btn"
+              aria-label="Próximo"
+              data-category="erasers"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Categoria Acessórios -->
+        <div class="category-section">
+          <h3 class="category-title">Acessórios</h3>
+          <div class="carousel">
+            <button
+              class="carousel-btn prev-btn"
+              aria-label="Anterior"
+              data-category="accessories"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-container" data-category="accessories">
+              <div class="carousel-track" id="accessories-track">
+                <!-- Produtos serão inseridos via JavaScript -->
+              </div>
+            </div>
+
+            <button
+              class="carousel-btn next-btn"
+              aria-label="Próximo"
+              data-category="accessories"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>Sobre Nós</h2>
+      <img src="./public/genius-logo.png" alt="geniuslogo" />
+
+      <div class="container">
+        <h1>Gen<span>ius</span></h1>
+        <h4>Armarinho & cia</h4>
+
+        <p>
+          Genius Armarinho & Cia está no mercado há mais de 15 anos, fornecendo
+          materiais escolares de qualidade para estudantes de todas as idades e acessórios diversos de utilidade doméstica e outros.
+          Nossa missão é oferecer produtos duráveis e acessíveis para facilitar
+          o aprendizado e soluções e produtos que otimizem o seu dia.<br/>
+          Trabalhamos para oferecer aos nossos clientes as melhores marcas do mercado pelo melhor custo x benefício.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contato</h2>
+      <div class="container">        
+        <form>
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu e-mail" required />
+          <textarea placeholder="Sua mensagem" required></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Armarinho Educa. Todos os direitos reservados.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
